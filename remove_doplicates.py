@@ -13,4 +13,5 @@ class Solution(object):
                 
         return f'{self.k}, nums = {self.final_list}'
 
-print(Solution(rotate([1,1,2,3,3,3,3,4,5,6,7])))
+a = Solution()
+print(a.removeDuplicates([1,1,2,3,3,3,3,4,5,6,7]))
